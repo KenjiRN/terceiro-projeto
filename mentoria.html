@@ -14,38 +14,75 @@
     <div id="caixa">
         <header>
             <div id="cab">
-                <h1>Mentoria</h1>
-                <p>Preencha o formulário abaixo para <br>agendar a sua mentoria</p>
+                <h1 id="titulo">Mentoria</h1>
+                <p id="diz">Preencha o formulário abaixo para <br>agendar a sua mentoria</p>
             </div>
         </header>
+        
+        <div>
+            <form>
+                <fieldset>
+                    <div id="legends1">
+                        <legend class="legends">
+                            <strong>Informações Pessoais</strong>
+                        </legend>
+                        <div class="traco"></div>
 
-        <form>
-            <fieldset>
-                <legend>
-                    <strong>Informações Pessoais</strong>
-                </legend>
-                <br>
-                <div id="linha"></div>
-                <br>
-                <label for="name">Nome</label>
-                <input type="text" name="Seu Nome" id="name">
+                            
+                            <label for="name">Nome</label>
+                            <input type="text" name="Seu Nome" id="name">
+                            
+                            
+                            <label for="sobre">Sobrenome</label>
+                            <input type="text" name="lastname" id="sobre">
+                            
+                            <br>
+                            <label for="mailto">Email<span>(digite um email válido)</span></label>
+                            <input type="email" name="Email" id="mailto">
+                            
+                            <br>
+                            <label for="senha">Senha<span>(mínimo de 6 caracteres)</span></label>
+                            <input type="password" name="Senha" id="senha">
+                        </div>
 
-                <br>
-                <label for="">Sobrenome</label>
-                <input type="text" name="" id="">
+                        <div id="legends2">  
 
-                <br>
-                <label for="">Email</label>
-                <input type="email" name="" id="">
+                            <legend class="legends">
+                                <strong>Informações do Mentor</strong>
+                            </legend>
+                            <div class="traco2"></div>
+                            <label for="mentor">Nome do seu mentor<span>(só o primeiro nome)</span></label>
+                            <input type="text" name="Seu Nome" id="mentor">
 
-                <br>
-                <label for="">Senha</label>
-                <input type="text" name="" id="">
+                        </div>
+
+                        <div id="legends3">
+                            <legend class="legends">
+                                <strong>SEUS HORÁRIOS DISPONÍVEIS</strong>
+                            </legend>
+                            <div class="traco2"></div>
+                            <h2><strong>PRIMEIRA MENTORIA</strong></h2>
+                            <label for="data">Data<span>(DD/MM/AAAA)</span></label>
+                        
+                            <input type="date" name="dataa" id="data">
+
+                            <label for="horai">Das</label> 
+                            <label for="horaf">Até</label>
+                            <input type="datetime" name="hora" id="horai">
+                            <label for="horaf">Até</label>
+                            <input type="datetime" name="hora" id="horaf">
+                        </div>
 
 
 
-            </fieldset>
-        </form>
+                </fieldset>
+
+
+            </form>
+        </div>
+        <footer>
+            <button><a href="#">Salvar</a></button>
+        </footer>
     </div>
 </body>
 </html>
