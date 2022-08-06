@@ -19,11 +19,11 @@ body::before{
 header{
     display: flex;
     flex-direction: column;
-    border: 1px red solid;
+
 }
 #titulo{
     font-family: 'Staatliches', cursive;
-    font-size: 60px;
+    
     font-weight: 400;
     font-size: 48px;
     line-height: 60px;
@@ -38,12 +38,12 @@ header{
 }
 
 #cab{
-    border: 1px red solid;
+
     width: 750px;
     margin:140px auto 58px;
-    
-
 }
+
+                                                /*formulário*/
 legend
 {
     font-family: 'Staatliches', cursive;
@@ -51,25 +51,9 @@ legend
     font-size: 24px;
     line-height: 34px;
     color: #535971;
-
-}
-#legends1{
-    width: 622px;
-    height: 382px;
-    border: 1px rgb(17, 0, 128) solid;
-    margin-bottom: 30px;
-}
-#legends2{
-    width: 622px;
-    height: 162px;
-    border: 1px rgb(128, 64, 0) solid;
-    margin-bottom: 32px;
-}
-#legends3{
-    width: 622px;
-    height: 350px;
-    border: 1px rgb(128, 0, 51) solid;
-    /* margin-bottom: 64px; */
+    border-bottom: 1px solid #E6E6F0;;
+    padding-bottom: 16px;
+    margin-bottom: 36px;
 }
 label{
     font-family: 'Poppins', sans-serif;
@@ -78,42 +62,78 @@ label{
     font-size: 14px;
     line-height: 24px;
     color: #4E4958;
+    margin-bottom: 8px;
+}
+input{
+    margin-bottom: 16px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+.legends{
+    padding-bottom:8px;
+    border-bottom:1px solid #E6E6F0;
+    margin-bottom: 32px;
+}
+#legends1{
+    width: 622px;
+    height: 382px;
+    /* border: 1px rgb(17, 0, 128) solid; */
+    margin-bottom: 30px;
 }
 #name{
     width: 300px;
     height: 56px;
-    background: #FAFAFC;
-    border: 1px solid #E6E6F0;
-    border-radius: 8px;
+   
 }
 #sobre{
     width: 300px;
     height: 56px;
-    background: #FAFAFC;
-    border: 1px solid #E6E6F0;
-    border-radius: 8px;
 }
-
 #mailto{
     width: 622px;
     height: 56px;
-    background: #FAFAFC;
-    border: 1px solid #E6E6F0;
-    border-radius: 8px;
 }
 #senha{
     width: 622px;
     height: 56px;
-    background: #FAFAFC;
-    border: 1px solid #E6E6F0;
-    border-radius: 8px;
+}
+#legends2{
+    width: 622px;
+    height: 162px;
+    /* border: 1px rgb(128, 64, 0) solid; */
+    margin-bottom: 32px;
 }
 #mentor{
     width: 622px;
     height: 56px;
-    background: #FAFAFC;
-    border: 1px solid #E6E6F0;
-    border-radius: 8px;
+}
+#legends3{
+    width: 622px;
+    height: 350px;    
+}
+#data{
+    width: 300px;
+    height: 56px;
+    margin-right: 32px;
+}
+#horai{
+    width: 140px;
+    height: 56px;
+    margin-right: 10px;
+}
+#horaf{
+    width: 140px;
+    height: 56px;
+}
+#wrapp{
+    display:flex;
+    flex-direction: column;
+}
+.wrapp0{                                    /*label e inputh*/
+    justify-content: space-between;
+    display: flex;
 }
 h2{
     font-family: 'Staatliches', cursive;
@@ -121,34 +141,21 @@ h2{
     font-size: 20px;
     line-height: 34px;
     color: #535971;
+    margin-bottom: 8px;
 }
-form{
+form{                                          /*FORMULARIO*/                       
     background-color: white;
     width: 750px;
+    height: 1084px;
     margin: auto;
     border-radius: 20px 20px 0px 0px;
-    border: 1px red solid;                              
+    padding: 64px;  
 }
-
 fieldset{
     border:none ;
     width: 622px;
     background-color: white;
-    margin: auto;
-    margin: 64px 64px 30px 64px;
 }
-
-.traco{
-    border-top:1px solid #E6E6F0;
-    margin-top: 16px;
-    margin-bottom: 36px;
-}
-.traco2{
-    margin-top:8px;
-    border-top:1px solid #E6E6F0;
-    margin-bottom: 36px;
-}
-
 span{
     margin-left: 9.14px;
     font-weight: 400;
@@ -157,15 +164,13 @@ span{
     color: #C1BCCC;
     font-family: 'Poppins', sans-serif;
 }
-
 footer{
     width: 750px;
     height: 160px;
     background: #535971;
     border-radius: 0px 0px 20px 20px;
     margin: auto;
-    position: relative;
-    
+    position: relative;  
 }
 button{
     top: 52.67px;
@@ -175,6 +180,7 @@ button{
     height: 55.65px;
     background: #FF5374;
     border-radius: 20px;
+    border: none;
 }
 a{
     text-decoration: none;

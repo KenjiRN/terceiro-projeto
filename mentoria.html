@@ -19,67 +19,85 @@
             </div>
         </header>
         
-        <div>
+      
             <form>
                 <fieldset>
                     <div id="legends1">
-                        <legend class="legends">
-                            <strong>Informações Pessoais</strong>
-                        </legend>
-                        <div class="traco"></div>
+                        <legend><strong>Informações Pessoais</strong></legend>                        
 
-                            
-                            <label for="name">Nome</label>
-                            <input type="text" name="Seu Nome" id="name">
-                            
-                            
-                            <label for="sobre">Sobrenome</label>
-                            <input type="text" name="lastname" id="sobre">
-                            
-                            <br>
+                        <div class="wrapp0">
+                            <div id="wrapp">
+                                <label class="warpp" for="name">Nome</label>
+                                <input type="text" name="Seu Nome" id="name">
+                            </div>
+                                
+                            <div id="wrapp">    
+                                <label class="warpp" for="sobre">Sobrenome</label>
+                                <input type="text" name="lastname" id="sobre">
+                            </div>
+                        </div>   
+                        <div id="wrapp"> 
                             <label for="mailto">Email<span>(digite um email válido)</span></label>
                             <input type="email" name="Email" id="mailto">
-                            
-                            <br>
+                        </div>   
+                            <div id="wrapp"> 
                             <label for="senha">Senha<span>(mínimo de 6 caracteres)</span></label>
                             <input type="password" name="Senha" id="senha">
-                        </div>
+                        </div>         
+                       
 
-                        <div id="legends2">  
+                    </div>
 
-                            <legend class="legends">
-                                <strong>Informações do Mentor</strong>
-                            </legend>
-                            <div class="traco2"></div>
+                    <div id="legends2">  
+
+                            <legend class="legends"><strong>Informações do Mentor</strong></legend>
+                            
                             <label for="mentor">Nome do seu mentor<span>(só o primeiro nome)</span></label>
                             <input type="text" name="Seu Nome" id="mentor">
 
                         </div>
 
                         <div id="legends3">
-                            <legend class="legends">
-                                <strong>SEUS HORÁRIOS DISPONÍVEIS</strong>
-                            </legend>
-                            <div class="traco2"></div>
+                            <legend class="legends"><strong>SEUS HORÁRIOS DISPONÍVEIS</strong></legend>
+                            
                             <h2><strong>PRIMEIRA MENTORIA</strong></h2>
-                            <label for="data">Data<span>(DD/MM/AAAA)</span></label>
-                        
-                            <input type="date" name="dataa" id="data">
+                            <div class="wrapp0">
 
-                            <label for="horai">Das</label> 
-                            <label for="horaf">Até</label>
-                            <input type="datetime" name="hora" id="horai">
-                            <label for="horaf">Até</label>
-                            <input type="datetime" name="hora" id="horaf">
+                                <div id="wrapp">
+                                    <label for="data">Data<span>(DD/MM/AAAA)</span></label>
+                                    <input type="date" name="dataa" id="data">
+                                </div>  
+                                <div id="wrapp">
+                                    <label for="horai">Das</label> 
+                                    <input type="datetime" name="hora" id="horai">
+                                </div>    
+                                <div id="wrapp"> 
+                                    <label for="horaf">Até</label>
+                                    <input type="datetime" name="hora" id="horaf">
+                                </div>
+                            </div>
+                            
+                            <h2><strong>segunda MENTORIA</strong></h2>
+                            <div class="wrapp0">
+
+                                <div id="wrapp">
+                                    <label for="data">Data<span>(DD/MM/AAAA)</span></label>
+                                    <input type="date" name="dataa" id="data">
+                                </div>  
+                                <div id="wrapp">
+                                    <label for="horai">Das</label> 
+                                    <input type="datetime" name="hora" id="horai">
+                                </div>    
+                                <div id="wrapp"> 
+                                    <label for="horaf">Até</label>
+                                    <input type="datetime" name="hora" id="horaf">
+                                </div>
+                            </div>
+                            
+                            
                         </div>
-
-
-
                 </fieldset>
-
-
-            </form>
-        </div>
+            </form>      
         <footer>
             <button><a href="#">Salvar</a></button>
         </footer>
