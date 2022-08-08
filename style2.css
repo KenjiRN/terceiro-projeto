@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #293241;
+    height: 465px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+#cab{
+    Line-height:100%;
+    color: white;  
+    text-align: center;
+}
+h1{
+    margin-top: 107px;
+    font-family: 'Staatliches', cursive;
+    
+    Font-size: 36px;
+    Line-height:45px;   
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    Line-height:24px;   
+}
+
+img{
+    width: 225px;
+    height: 100px; 
+}
+#salmao{
+    background-color:#F67669;
+    width: 750px;
+    height: 133px;
+    border-radius: 20px 20px 0 0;
+    
+    text-align: center;
+}
+#salmao h2{
+    margin-top: 50px;
+    color: white; 
+    font-family: 'Staatliches', cursive;
+    Font-size: 24px;
+    Line-height: 34px; 
+}
+    
+    /* ============================================================================= */
+body{
+    background-color: #E5E5E5;
+
+}
+#corpo{
+    background-color: #ffffff;
+    width: 750px;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+    
+    
+
+}
+#page{
+    width: 622px;
+    margin: 0px 64px 63.74px 64px;
+
+    
+}
+button{
+    background-color: #F67669;
+    font-family: 'Staatliches', cursive;
+    color: white;
+    Font-size: 20px;
+    width: 622px;
+    height: 51px;
+    border:none;
+    border-radius: 8px;
+    margin: 0px 64px 64px 64px;
+    
+}
+
+/* ====================================================================== */
+h2{
+    text-align: center;
+    Font-size: 24px;
+    Line-height: 34px;
+    font-family: 'Staatliches', cursive;
+    color:#253B51;
+}
+
+
+.traco{           /*===================H2 DO FORMULARIO===========*/
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 7.93px;
+    margin-bottom: 31.73px;
+}
+.traco1{
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 10px;
+    margin-bottom: 31.73px; 
+}
+
+label{
+    Font-size: 14px;
+    Line-height: 24px;
+    color:#4E4958;
+    font-family: 'Poppins', sans-serif;
+    /* padding-bottom: 7.93px; */
+}
+span{
+    color: #C1BCCC;
+    Font-size: 12px;
+    Line-height: 20px;
+    
+
+}
+
+#um{
+    
+    margin-bottom: 31.73px;
+    padding-top: 29.66px;
+    justify-content: space-between;
+    display: flex;
+}
+#c1{
+    width: 622px;
+    height: 190.38px;
+    margin-bottom: 31.73px;
+
+}
+#c2{
+    
+    height: 444.22px;
+    margin-bottom: 36px;
+    width: 622px;
+}
+
+
+#tres{
+    justify-content: space-between;
+    display: flex;
+}
+#c2{
+
+}
+#c3{
+    height: 162.26px; 
+    width: 622px;
+}
+
+input{
+    border: 1px solid #E6E6F0;
+    border-radius:8px ;
+}
+.input0{
+    width: 300px;
+    height: 55.53px;
+    margin-right: 22px;
+}
+.input1{
+    width: 300px;
+    height: 55.53px;
+    /* margin-right: 32px; */
+
+}
+
+.inputmail{
+    width: 622px;
+    height: 55.53px;
+}
+
+.feedback{
+    width: 608px;
+    height: 166.59px;
+}
+
+
+#horai{
+    width: 140px;
+    height: 55.53px;
+    margin-right: 10px;
+}
+#horaf{
+    width: 140px;
+    height: 55.53px; 
+}
+#caixa1{
+    /* display: flex;
+    flex-direction:row; */
+}
+
+#caixa2{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 31.73px; 
+}
+
+#caixa3{
+    display:flex;
+    flex-direction: column;
+    
+
+}
+#p0{
+    margin-right: 22px;
+}
+#p1{                /*    distancias entre OS INPUTS              */
+    margin-right: 32px;
+
+}
+#p2{                /*    distancias entre OS INPUTS              */
+    margin-right: 10px;
+}
